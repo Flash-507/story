@@ -22,4 +22,14 @@ ex:  ~ 'git diff chapter3.txt'
 step-7: to revert or roll back to committed file, use git checkout <filename.ext>.
 ex:  ~ 'git checkout chapter3.txt'
 
+TO Add Project to remote server(GitHub).
+step-1: create github account and create a new repository,where u can find a link for that repository,copy that link
+
+step-2: add that remote link to your local project repository, "git remote add origin <repo link>"
+ex:  ~ 'git remote add origin https://github.com/Flash-507/story.git'
+	note: 'origin'  is name of your remote, you can use any name for it.
+
+step-3: now push your local project into your remote.
+ex:  ~ 'git push -u origin main' - 'u': it links local with remote
+				 - 'origin main': local data resides in origin repository main branch 
 
