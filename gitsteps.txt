@@ -1,19 +1,25 @@
 Step-1: create your project folder, CD into it
-ex: ~ mkdir <project>
-    ~ cd <project>
+ex: ~ 'mkdir <project>'
+    ~ 'cd <project>'
 
 step-2: use command git init, to create a git local repository, which tracks the changes in the folder.
 ex: ~ git init
 
 step-3: To track changes to a file, add file to staging area.
-ex: ~ git status : it displays files which are in staging area or not.
-    ~ git add <filename.ext> : it adds the file to staging area.
-    ~ git add . : shortcut for multiple files to be added/updated.
+ex: ~ 'git status' : it displays files which are in staging area or not.
+    ~ 'git add <filename.ext>' : it adds the file to staging area.
+    ~ 'git add .' : shortcut for multiple files to be added/updated.
 
 step-4: git commit, use this command to add files from staging area to start tracking.
-ex: ~ git commit -m "<message>"
+ex: ~ 'git commit -m "<message>"'
 
 step-5: to check all the prev commits, use git log command
-ex:  ~ git log
+ex:  ~ "git log"
+
+step-6: compare a file by using "git diff <filename.ext>", it compares current updated file(not committed) to commited file
+ex:  ~ 'git diff chapter3.txt'
+
+step-7: to revert or roll back to committed file, use git checkout <filename.ext>.
+ex:  ~ 'git checkout chapter3.txt'
 
 
