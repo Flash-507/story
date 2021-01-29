@@ -8,6 +8,12 @@ ex: ~ git init
 step-3: To track changes to a file, add file to staging area.
 ex: ~ git status : it displays files which are in staging area or not.
     ~ git add <filename.ext> : it adds the file to staging area.
+    ~ git add . : shortcut for multiple files to be added/updated.
 
 step-4: git commit, use this command to add files from staging area to start tracking.
 ex: ~ git commit -m "<message>"
+
+step-5: to check all the prev commits, use git log command
+ex:  ~ git log
+
+
