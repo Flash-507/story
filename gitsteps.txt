@@ -33,3 +33,16 @@ step-3: now push your local project into your remote.
 ex:  ~ 'git push -u origin main' - 'u': it links local with remote
 				 - 'origin main': local data resides in origin repository main branch 
 
+
+
+To remove from staging area,
+git rm --cached -r <'filename.ext' or '.'>
+
+for cloning, git clone <link>
+
+to ignore some files from commiting, create .gitignore file and write all the file names that u want to ignore
+
+branch
+'git branch <name>' - creates a branch.
+'git branch' - shows branches
+'git checkout <branchname>' - to switch the branch.
